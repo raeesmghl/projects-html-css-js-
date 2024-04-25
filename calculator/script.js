@@ -1,4 +1,4 @@
-
+// my script
 
 let input = document.querySelector('#screen'); 
 let result = document.querySelector('#result'); 
@@ -84,6 +84,8 @@ let reseting = () =>{
 
 
 
+// copied from chatGPT
+
 function calculateResult() {
     const expression = document.getElementById('screen').value;
     try {
@@ -95,3 +97,4 @@ function calculateResult() {
 }
 
 
+// i know this is not a good practice to write code in this way. but this was my first try. with the passage of time, i created projects and wrote that code in a better way that helps the other developers to read and rewrite easily.
