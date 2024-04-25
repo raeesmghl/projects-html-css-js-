@@ -1,1 +1,1 @@
-i created this project without any tutorial. and i tried to create a new thing on my own. the code is messy and is not with good readability. but this was my first try.
+This project was made without the use of a tutorial. and I made an attempt to make something new by myself. The code lacks readability and is disorganized. but I was only getting started.
