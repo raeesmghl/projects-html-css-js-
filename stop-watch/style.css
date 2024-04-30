@@ -1,0 +1,68 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .container{
+            border: 2px solid;
+            border-radius: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+        }
+        .clock {
+            /* border: 2px solid; */
+            height: 200px;
+            width: 700px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 3em;
+            border-radius: 50px;
+        }
+
+        .buttons {
+            margin-top: 50px;
+            width: 500px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* border: 2px solid; */
+        }
+
+        .buttons>button {
+            background-color: white;
+            padding: 2% 4%;
+            border-radius: 20px;
+            cursor: pointer;
+            color: black;
+            font-size: 3em;
+            border: none;
+        }
+
+        .buttons>button:active {
+            background-color: rgb(184, 184, 184);
+        }
+
+        .buttons>button:disabled {
+            background-color: rgb(184, 184, 184);
+            color: black;
+        }
