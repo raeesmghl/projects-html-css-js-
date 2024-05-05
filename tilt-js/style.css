@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E293F;
+}
+.container{
+    color: #FCC401;
+    max-width: 270px;
+    max-height: 400px;
+    height: 100%;
+    width: 100%;
+    border: 5px solid #FCC401;
+    border-radius: 30px;
+    background: url(https://images.unsplash.com/photo-1620138546344-7b2c38516edf?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center;
+    background-size: cover;
+    transform-style: preserve-3d;
+    overflow: hidden;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50% 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 900;
+
+}
