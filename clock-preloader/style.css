@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgba(0, 255, 255, 0.1);
+    border-radius: 50%;
+    position: relative;
+}
+.long-hand{
+    height: 45%;
+    animation-duration: 1s;
+   
+}
+.short-hand{
+    height: 25%;
+    animation-duration: 12s;
+}
+.clock>div{
+    width: 5%;
+    background-color: crimson;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -100%;
+    border-radius: 10px;
+    animation-name: circular;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.clock:hover.clock>div{
+    animation-play-state: paused;
+}
+@keyframes circular{
+    100%{
+        rotate: 360deg;
+    }
+}
